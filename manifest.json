@@ -1,0 +1,1018 @@
+{
+  "name": "Eclipsia Nuvio",
+  "version": "1.0.0",
+  "description": "Ports of the Eclipsia CloudStream plugins to Nuvio: anime (Ani.Pm, AnimeWorld, AniZone...), movies & TV, regional, K-Drama and classic",
+  "scrapers": [
+    {
+      "id": "anipm",
+      "name": "Ani.Pm",
+      "description": "Anime from ani.pm: Sub/Dub/HardSub 1080p with multi-language subtitles, plus Multi-Dub HLS",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/anipm.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "brellor",
+      "name": "Brellor (Internet Archive)",
+      "description": "Internet Archive — Classic/Vintage (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/brellor.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "durnel",
+      "name": "Durnel (CTGMovies)",
+      "description": "CTGMovies — 1080p • Mainstream • Regional (from Eclipsia)",
+      "version": "3.2.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/durnel.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "ja",
+        "ko"
+      ]
+    },
+    {
+      "id": "esvyl",
+      "name": "Esvyl (VidBolt)",
+      "description": "VidBolt — 1080p • Mainstream • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/esvyl.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "evyrith",
+      "name": "Evyrith (Vidrock)",
+      "description": "Vidrock — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/evyrith.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fastrion",
+      "name": "Fastrion (MultiMovies)",
+      "description": "MultiMovies — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fastrion.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fendrix",
+      "name": "Fendrix (Cinejoy)",
+      "description": "Cinejoy — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.6.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fendrix.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "fjoral",
+      "name": "Fjoral (GramCinema)",
+      "description": "GramCinema — Up-to 4k • Requires Setup (from Eclipsia)",
+      "version": "1.2.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fjoral.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "fyron",
+      "name": "Fyron (KissKH)",
+      "description": "KissKH — K-Drama • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fyron.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "zh",
+        "ko"
+      ]
+    },
+    {
+      "id": "gravix",
+      "name": "Gravix (AnimeWorld)",
+      "description": "AnimeWorld — Multi Dub • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/gravix.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja",
+        "hi",
+        "te",
+        "ta"
+      ]
+    },
+    {
+      "id": "haylox",
+      "name": "Haylox (Vidlink)",
+      "description": "Vidlink — 1080p • Mainstream (from Eclipsia)",
+      "version": "2.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/haylox.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hexion",
+      "name": "Hexion (4kHdHub)",
+      "description": "4kHdHub — Up-to 4k • Multi-lang (from Eclipsia)",
+      "version": "1.5.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hexion.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "ilvyrel",
+      "name": "Ilvyrel (ToonWorld4All)",
+      "description": "ToonWorld4All — Multi Dub • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/ilvyrel.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja",
+        "hi",
+        "te",
+        "ta"
+      ]
+    },
+    {
+      "id": "jhaeros",
+      "name": "Jhaeros (MovieLinkBD)",
+      "description": "MovieLinkBD — Up-to 2160p • Mainstream • Regional (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/jhaeros.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "ta",
+        "te"
+      ]
+    },
+    {
+      "id": "jyniq",
+      "name": "Jyniq (Wikimedia)",
+      "description": "Wikimedia — Classic/Vintage (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/jyniq.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "karnis",
+      "name": "Karnis (Castle)",
+      "description": "Castle — 1080p • Mainstream • Regional (from Eclipsia)",
+      "version": "1.6.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/karnis.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "kethrax",
+      "name": "Kethrax (VixSrc)",
+      "description": "VixSrc — Italian & English (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/kethrax.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "it"
+      ]
+    },
+    {
+      "id": "kryxalia",
+      "name": "Kryxalia (MoviesHunt)",
+      "description": "MoviesHunt — Up-to 4k • Mainstream • Regional (from Eclipsia)",
+      "version": "1.5.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/kryxalia.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "lenyr",
+      "name": "Lenyr (AniZone)",
+      "description": "AniZone — Multi Dub • Anime (from Eclipsia)",
+      "version": "2.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/lenyr.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "lyrin",
+      "name": "Lyrin (BanglaPlex)",
+      "description": "BanglaPlex — 1080p • Regional (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/lyrin.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "bn",
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "maelith",
+      "name": "Maelith (Mapple)",
+      "description": "Mapple — Up-to 2160p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/maelith.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "mavonyx",
+      "name": "Mavonyx (MovieBox)",
+      "description": "MovieBox — Up-to 4k • Multi Dub (from Eclipsia)",
+      "version": "1.7.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/mavonyx.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mpd"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "bn"
+      ]
+    },
+    {
+      "id": "noctyx",
+      "name": "Noctyx (Toonix)",
+      "description": "Toonix — Anime • Hindi (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/noctyx.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "novus",
+      "name": "Novus (Dulo)",
+      "description": "Dulo — Up-to 4k • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/novus.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "nyxora",
+      "name": "Nyxora (VidFast)",
+      "description": "VidFast — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/nyxora.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "bn"
+      ]
+    },
+    {
+      "id": "ozeris",
+      "name": "Ozeris (Anv)",
+      "description": "Anv — Sub/Dub • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/ozeris.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "phraxis",
+      "name": "Phraxis (Play4u)",
+      "description": "Play4u — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/phraxis.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "praxiel",
+      "name": "Praxiel (Re:ANIME)",
+      "description": "Re:ANIME — Sub/Dub • Anime (from Eclipsia)",
+      "version": "1.2.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/praxiel.js",
+      "enabled": true,
+      "formats": [
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "pynvix",
+      "name": "Pynvix (ShowBox)",
+      "description": "ShowBox — Up-to 4k • Requires Setup (from Eclipsia)",
+      "version": "1.8.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pynvix.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "ja",
+        "pt",
+        "ar"
+      ]
+    },
+    {
+      "id": "qorva",
+      "name": "Qorva (KatWorld)",
+      "description": "KatWorld — 1080p • K-Drama (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/qorva.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "kr"
+      ]
+    },
+    {
+      "id": "quinox",
+      "name": "Quinox (VidNest)",
+      "description": "VidNest — 1080p • Mainstream • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/quinox.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "es",
+        "ja",
+        "ta",
+        "te"
+      ]
+    },
+    {
+      "id": "qyrvaen",
+      "name": "Qyrvaen (HDHub4u | Multi-lang)",
+      "description": "HDHub4u | Multi-lang (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/qyrvaen.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "rylvane",
+      "name": "Rylvane (WcoFlix)",
+      "description": "WcoFlix — HardSub/Dub • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/rylvane.js",
+      "enabled": true,
+      "formats": [
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "rynara",
+      "name": "Rynara (Vidy)",
+      "description": "Vidy — Up-to 4k • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/rynara.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "solunix",
+      "name": "Solunix (VegaMovies (HC & VC))",
+      "description": "VegaMovies (HC & VC) — Up-to 4k • Mainstream (from Eclipsia)",
+      "version": "1.4.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/solunix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "soryn",
+      "name": "Soryn (Netmirror)",
+      "description": "Netmirror — 1080p • Mainstream • Regional (from Eclipsia)",
+      "version": "3.4.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/soryn.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "svartok",
+      "name": "Svartok (Vivarium)",
+      "description": "Vivarium — Multi Dub • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/svartok.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "sylphera",
+      "name": "Sylphera (Dexter)",
+      "description": "Dexter — Up-to 4K • Mainstream (from Eclipsia)",
+      "version": "1.3.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/sylphera.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "tyvrel",
+      "name": "Tyvrel (Nxsha)",
+      "description": "Nxsha — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/tyvrel.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ]
+    },
+    {
+      "id": "vornix",
+      "name": "Vornix (MoviesDrive)",
+      "description": "MoviesDrive — Up-to 4k • Mainstream • Regional (from Eclipsia)",
+      "version": "1.8.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vornix.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "bn",
+        "hi",
+        "pt",
+        "ta",
+        "te"
+      ]
+    },
+    {
+      "id": "vyranel",
+      "name": "Vyranel (AnimeCube)",
+      "description": "AnimeCube — Donghua (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vyranel.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "waelum",
+      "name": "Waelum (BingeBang)",
+      "description": "BingeBang — Mainstream • Up-to 4k (from Eclipsia)",
+      "version": "1.3.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/waelum.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "wrenok",
+      "name": "Wrenok (Purstream)",
+      "description": "Purstream — French & English (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/wrenok.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "id": "xandril",
+      "name": "Xandril (AniChan)",
+      "description": "AniChan — Sub/Dub/HardSub • Anime (from Eclipsia)",
+      "version": "1.5.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/xandril.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "xylos",
+      "name": "Xylos (AniKage)",
+      "description": "AniKage — Sub/Dub • Anime (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/xylos.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "zevran",
+      "name": "Zevran (VAplayer)",
+      "description": "VAplayer — 1080p • Mainstream (from Eclipsia)",
+      "version": "1.1.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/zevran.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "hls"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "zyrvael",
+      "name": "Zyrvael (Anikoto)",
+      "description": "Anikoto — Sub/Dub • Anime (from Eclipsia)",
+      "version": "1.3.0",
+      "author": "you",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/zyrvael.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    }
+  ]
+}
